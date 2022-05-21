@@ -11,7 +11,7 @@
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
-        <java.version>18</java.version>
+        <java.version>11</java.version>
         <springdoc-openapi-ui-version>1.6.8</springdoc-openapi-ui-version>
         <spring-boot-starter-web-version>2.5.4</spring-boot-starter-web-version>
         <spring-boot-starter-test-version>2.6.7</spring-boot-starter-test-version>
