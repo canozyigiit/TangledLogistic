@@ -44,4 +44,7 @@ private List<String> getDiscountedUsers(List<Box> boxes) {
                 () -> assertThat(transportService.transportBoxes(boxes).getDiscountedUserIndex()).isEqualTo(expectedDiscountedUser),
                 () -> assertEquals(transportService.transportBoxes(boxes).getSuccess(),expectedSuccess)
         );
-    }```
+    }
+```
+
+- Swagger Link: http://localhost:8080/swagger-ui/index.html
