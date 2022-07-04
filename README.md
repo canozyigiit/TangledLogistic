@@ -1,9 +1,7 @@
 
-1) What is the time / space complexity of your solution ?
+ What is the time / space complexity of your solution ?
     - O(nlogn)
-2) What is the bottleneck of your approach? Which part runs the
-   slowest ? Explain why.
-    - The slowest part is the method that distinguishes discount users because it goes through multiple processes such as sorting and filtering.
+
 ```java
 private List<String> getDiscountedUsers(List<Box> boxes) {
         List<String> discountedUsers;
